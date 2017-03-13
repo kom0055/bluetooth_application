@@ -1,0 +1,45 @@
+*** Creating Trace Output File '.\output\工程模板.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\output\main.o"'
+### List of Objects: adding '".\output\stm32f10x_it.o"'
+### List of Objects: adding '".\output\public.o"'
+### List of Objects: adding '".\output\core_cm3.o"'
+### List of Objects: adding '".\output\system_stm32f10x.o"'
+### List of Objects: adding '".\output\startup_stm32f10x_hd.o"'
+### List of Objects: adding '".\output\stm32f10x_gpio.o"'
+### List of Objects: adding '".\output\stm32f10x_rcc.o"'
+### List of Objects: adding '".\output\stm32f10x_usart.o"'
+### List of Objects: adding '".\output\misc.o"'
+### List of Objects: adding '".\output\stm32f10x_exti.o"'
+### List of Objects: adding '".\output\stm32f10x_tim.o"'
+### List of Objects: adding '".\output\led.o"'
+### List of Objects: adding '".\output\systick.o"'
+### List of Objects: adding '".\output\pwm.o"'
+### List of Objects: adding '".\output\rs485.o"'
+### List of Objects: adding '".\output\iic.o"'
+### List of Objects: adding '".\output\at24cxx.o"'
+### List of Objects: adding '".\output\beep.o"'
+### List of Objects: adding '".\output\exti.o"'
+### List of Objects: adding '".\output\key.o"'
+### List of Objects: adding '".\output\smg.o"'
+### List of Objects: adding '".\output\time.o"'
+### List of Objects: adding '".\output\usart.o"'
+### List of Objects: adding '".\output\ds18b20.o"'
+### List of Objects: adding '".\output\temp.o"'
+### List of Objects: adding '".\output\sdrcv.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\output\main.o" ".\output\stm32f10x_it.o" ".\output\public.o" ".\output\core_cm3.o" ".\output\system_stm32f10x.o" ".\output\startup_stm32f10x_hd.o" ".\output\stm32f10x_gpio.o" ".\output\stm32f10x_rcc.o" ".\output\stm32f10x_usart.o" ".\output\misc.o" ".\output\stm32f10x_exti.o" ".\output\stm32f10x_tim.o" ".\output\led.o" ".\output\systick.o" ".\output\pwm.o" ".\output\rs485.o" ".\output\iic.o" ".\output\at24cxx.o" ".\output\beep.o" ".\output\exti.o" ".\output\key.o" ".\output\smg.o" ".\output\time.o" ".\output\usart.o" ".\output\ds18b20.o" ".\output\temp.o" ".\output\sdrcv.o" --library_type=microlib --strict --scatter ".\output\工程模板.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\output\工程模板.map" -o ".\output\工程模板.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\output\工程模板.axf'
+### ADS-LD Command File: '.\output\工程模板.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\output\工程模板.lnp', Handle=0x00000E64
+### Writing '.lnp' file
+### ADS-LD Command file '.\output\工程模板.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
